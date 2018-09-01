@@ -1,4 +1,4 @@
-Larger Font Sizes for Divinity: Original Sin 2 Definitive Edition
+Increased Font Sizes for Divinity: Original Sin 2 Definitive Edition
 =======
 
 Simply scales the font up on the font files directly. Works as an override, so achievements should stay enabled.

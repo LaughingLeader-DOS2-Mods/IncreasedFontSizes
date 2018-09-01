@@ -13,8 +13,18 @@ Simply scales the font up on the font files directly. Works as an override, so a
 * As DOS2 wasn't designed with these higher font sizes, certain UI elements may be broken if you go with a higher scaling size (10% seems fine initially).
 * Since this "mod" is technically just overriding base game files, it doesn't count as an actual mod, and achievements will stay enabled if you're playing through with no mods.
 
+# Current Scaling Options
+* 110% - Most compatible.
+* 115% - Seems fine initially.
+* 120% - May have some issues with certain parts of the UI. 
+
+# Comparison Screenshots
+
+[![Font Size Comparison](https://thumbs.gfycat.com/FrightenedMiserlyAmericanshorthair-size_restricted.gif)](https://gfycat.com/FrightenedMiserlyAmericanshorthair)
+
 # Releases
-* Nexus (Coming soon, pending the new DE section).
+* [Github Releases]()
+* Nexus Release (Coming soon, pending the new DE section).
 
 # Support
 If you're feeling generous, an easy way to show support is by tipping me a coffee:

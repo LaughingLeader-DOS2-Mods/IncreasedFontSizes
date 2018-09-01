@@ -29,9 +29,9 @@ Example:
 * Since this "mod" is technically just overriding base game files, it doesn't count as an actual mod, and achievements will stay enabled if you're playing through with no mods.
 
 # Current Scaling Options
-* 110% - Most compatible.
+* 110% - Most compatibleo of the 3.
 * 115% - Seems fine initially.
-* 120% - May have some issues with certain parts of the UI. 
+* 120% - Looks a bit like the font was made bold.
 
 # Comparison Screenshots
 

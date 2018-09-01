@@ -1,11 +1,7 @@
 Increased Font Sizes for Divinity: Original Sin 2 Definitive Edition
 =======
 
-Simply scales the size of the font directly in the font files. Works as an override, so achievements should stay enabled.
-
-# Releases
-* Github Release (Coming Soon)
-* Nexus Release (Coming soon, pending the new DE section).
+A guide for scaling the size of DOS2DE's font directly with the font files. Works as an override, so achievements should stay enabled.
 
 # Support
 If you're feeling generous, an easy way to show support is by tipping me a coffee:
@@ -14,31 +10,44 @@ If you're feeling generous, an easy way to show support is by tipping me a coffe
 
 All coffee goes toward fueling future and current development efforts. Thanks!
 
-# To Install:
+# Scaling the Fonts
 
-1. [Download a release](https://github.com/LaughingLeader-DOS2-Mods/IncreasedFontSizes/releases).
-2. Extract the archive somewhere you prefer, then copy and paste the `Public` folder into your game's Data folder, i.e. `Steam\steamapps\common\Divinity Original Sin 2\DefEd\Data\`
-3. The final result will look like this: ![Final Result](https://i.imgur.com/NksC28l.png "The location of the mod files.")
+## Setup
+1. Download [FontForge](https://fontforge.github.io/en-US/downloads/windows-dl/).
+2. Download [Norbyte's Pak Extractor Tool](https://s3.eu-central-1.amazonaws.com/nb-stor/dos/ExportTool/ExportTool-latest.zip)
+3. Using the Pak Extractor Tool, extract `Divinity Original Sin 2\DefEd\Data\Game.pak`.
+4. Wherever you extracted Game.pak, navigate to this directory: `Public\Game\GUI\fonts` and copy the following files:
+	1. COLLEGIATEBLACKFLF.TTF
+	2. QuadraatOffcPro.ttf
+	3. QuadraatOffcPro-Bold.ttf
+	4. QuadraatOffcPro-Italic.ttf
+	5. wts11.ttf
+5. Create the follow folder pathway in your game data directory: `Data\Public\Game\GUI\fonts`
+6. Paste the font files you copied in step 4 into this new `fonts` directory.
 
-Example:  
-[![Installation Demonstration](https://thumbs.gfycat.com/RemoteIdenticalLacewing-size_restricted.gif)](https://gfycat.com/RemoteIdenticalLacewing)
-
-# Notes:
-* This works by scaling the font ttf files themselves, so the upper limit of how high you can scale the fonts are somewhat limited.
-* As DOS2 wasn't designed with these higher font sizes, certain UI elements may be broken if you go with a higher scaling size (10% seems fine initially).
-* Since this "mod" is technically just overriding base game files, it doesn't count as an actual mod, and achievements will stay enabled if you're playing through with no mods.
-
-# Current Scaling Options
-* 110% - Most compatibleo of the 3.
-* 115% - Seems fine initially.
-* 120% - Looks a bit like the font was made bold.
+## Font Scaling
+The following can be applied to each font (.ttf) file: 
+1. Open FontForge.
+2. Open the font you want to scale.
+3. CTRL+A to select everything.
+4. Click Element -> Transformations -> Transform... (Shorcut CTRL + \)  
+![Opening the Transform Menu](https://i.imgur.com/AsTT4c5.png "How to open the Transform menu.")  
+5. Select the following options, and click OK:  
+![Transforming the Font](https://i.imgur.com/wcrPkWu.png "How to open the Transform menu.")  
+6. Ignore whatever warnings/errors you may get. When the transforming is done, click File -> Generate Fonts...
+7. Copy the following generation options, and name your font the same name of the original file:
+![Generating the Font](https://i.imgur.com/XMdAQgD.png "Generation options.") 
+8. Repeat for the other fonts.
 
 # Comparison Screenshots
 
 [![Font Size Comparison](https://thumbs.gfycat.com/FrightenedMiserlyAmericanshorthair-size_restricted.gif)](https://gfycat.com/FrightenedMiserlyAmericanshorthair)
 
 # Frequently Asked Questions
-"Can I get a font scaling size of ___%?"
-* We can try! The thing is, since font sizes are being scaled within the font file itself, anything above the current sizes may break the UI in certain ways. 200% in particular looked bad:  
+## "How high can the scaling go?"
+* Since font sizes are being scaled within the font file itself, anything too high may break the UI in certain ways. 200% in particular lookes bad:  
 
  [![200% Scale](https://i.imgur.com/PuhMIDkl.png "Font scaling set to 200%.")](https://i.imgur.com/PuhMIDk.png)
+ 
+## "Why is this a guide, and not a release?"
+* The fonts used in DOS2 all appear to be copyrighted (and quite expensive), so unfortunately re-distributing them is a no-no. Sorry!

@@ -48,7 +48,7 @@ The following steps can be applied to each font (.ttf) file:
 
 # Frequently Asked Questions
 ## "How high can the scaling go?"
-* Since font sizes are being scaled within the font file itself, anything too high may break the UI in certain ways. 200% in particular lookes bad:  
+* Since font sizes are being scaled within the font file itself, anything too high may break the UI in certain ways. 200% in particular looks bad:  
 
  [![200% Scale](https://i.imgur.com/PuhMIDkl.png "Font scaling set to 200%.")](https://i.imgur.com/PuhMIDk.png)
  

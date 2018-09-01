@@ -34,7 +34,7 @@ All coffee goes toward fueling future and current development efforts. Thanks!
 [![Font Size Comparison](https://thumbs.gfycat.com/FrightenedMiserlyAmericanshorthair-size_restricted.gif)](https://gfycat.com/FrightenedMiserlyAmericanshorthair)
 
 # Frequently Asked Questions
-* "Can I get a font scaling size of ___%?"
-  * We can try! The thing is, since fonts are being scaled within the font file itself, anything above the current sizes may break the UI in certain ways. 200% in particular looked bad:  
+"Can I get a font scaling size of ___%?"
+* We can try! The thing is, since font sizes are being scaled within the font file itself, anything above the current sizes may break the UI in certain ways. 200% in particular looked bad:  
 
-[![200% Scale](https://i.imgur.com/PuhMIDkl.png "Font scaling set to 200%.")](https://i.imgur.com/PuhMIDk.png)
+ [![200% Scale](https://i.imgur.com/PuhMIDkl.png "Font scaling set to 200%.")](https://i.imgur.com/PuhMIDk.png)

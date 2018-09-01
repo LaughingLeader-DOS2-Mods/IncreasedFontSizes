@@ -17,16 +17,19 @@ All coffee goes toward fueling future and current development efforts. Thanks!
 2. Download [Norbyte's Pak Extractor Tool](https://s3.eu-central-1.amazonaws.com/nb-stor/dos/ExportTool/ExportTool-latest.zip)
 3. Using the Pak Extractor Tool, extract `Divinity Original Sin 2\DefEd\Data\Game.pak`.
 4. Wherever you extracted Game.pak, navigate to this directory: `Public\Game\GUI\fonts` and copy the following files:
-	1. COLLEGIATEBLACKFLF.TTF
-	2. QuadraatOffcPro.ttf
-	3. QuadraatOffcPro-Bold.ttf
-	4. QuadraatOffcPro-Italic.ttf
-	5. wts11.ttf
-5. Create the follow folder pathway in your game data directory: `Data\Public\Game\GUI\fonts`
+	* `COLLEGIATEBLACKFLF.TTF`
+	* `QuadraatOffcPro.ttf`
+	* `QuadraatOffcPro-Bold.ttf`
+	* `QuadraatOffcPro-Italic.ttf`
+	* `wts11.ttf`
+5. Create the following pathway (by creating the missing folders) in the DOS2 Data directory: `Data\Public\Game\GUI\fonts`
 6. Paste the font files you copied in step 4 into this new `fonts` directory.
 
+Result:
+![Font Overrides](https://i.imgur.com/NksC28ll.png "The new font file overrides.") 
+
 ## Font Scaling
-The following can be applied to each font (.ttf) file: 
+The following steps can be applied to each font (.ttf) file: 
 1. Open FontForge.
 2. Open the font you want to scale.
 3. CTRL+A to select everything.

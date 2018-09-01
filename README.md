@@ -3,8 +3,19 @@ Increased Font Sizes for Divinity: Original Sin 2 Definitive Edition
 
 Simply scales the font up on the font files directly. Works as an override, so achievements should stay enabled.
 
+# Releases
+* [Github Releases](https://github.com/LaughingLeader-DOS2-Mods/IncreasedFontSizes/releases)
+* Nexus Release (Coming soon, pending the new DE section).
+
+# Support
+If you're feeling generous, an easy way to show support is by tipping me a coffee:
+
+[![Tip Me a Coffee](https://i.imgur.com/NkmwXff.png)](https://ko-fi.com/LaughingLeader)
+
+All coffee goes toward fueling future and current development efforts. Thanks!
+
 # To Install:
-1. [Download a release]().
+1. [Download a release](https://github.com/LaughingLeader-DOS2-Mods/IncreasedFontSizes/releases).
 2. Extract the archive somewhere you prefer, then copy and paste the `Public` folder into your game's Data folder, i.e. `Steam\steamapps\common\Divinity Original Sin 2\DefEd\Data\`
 3. The final result will look like this: ![Final Result](https://i.imgur.com/NksC28l.png "The location of the mod files.")
 
@@ -22,13 +33,8 @@ Simply scales the font up on the font files directly. Works as an override, so a
 
 [![Font Size Comparison](https://thumbs.gfycat.com/FrightenedMiserlyAmericanshorthair-size_restricted.gif)](https://gfycat.com/FrightenedMiserlyAmericanshorthair)
 
-# Releases
-* [Github Releases]()
-* Nexus Release (Coming soon, pending the new DE section).
+# Frequently Asked Questions
+* "Can I get a font scaling size of ___%?"
+  * We can try! The thing is, since fonts are being scaled within the font file itself, anything above the current sizes may break the UI in certain ways. 200% in particular looked bad:  
 
-# Support
-If you're feeling generous, an easy way to show support is by tipping me a coffee:
-
-[![Tip Me a Coffee](https://i.imgur.com/NkmwXff.png)](https://ko-fi.com/LaughingLeader)
-
-All coffee goes toward fueling future and current development efforts. Thanks!
+[![200% Scale](https://i.imgur.com/PuhMIDkl.png "Font scaling set to 200%.")](https://i.imgur.com/PuhMIDk.png)

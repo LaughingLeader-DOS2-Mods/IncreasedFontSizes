@@ -15,9 +15,13 @@ If you're feeling generous, an easy way to show support is by tipping me a coffe
 All coffee goes toward fueling future and current development efforts. Thanks!
 
 # To Install:
+
 1. [Download a release](https://github.com/LaughingLeader-DOS2-Mods/IncreasedFontSizes/releases).
 2. Extract the archive somewhere you prefer, then copy and paste the `Public` folder into your game's Data folder, i.e. `Steam\steamapps\common\Divinity Original Sin 2\DefEd\Data\`
 3. The final result will look like this: ![Final Result](https://i.imgur.com/NksC28l.png "The location of the mod files.")
+
+Example:  
+[![Installation Demonstration](https://thumbs.gfycat.com/RemoteIdenticalLacewing-size_restricted.gif)](https://gfycat.com/RemoteIdenticalLacewing)
 
 # Notes:
 * This works by scaling the font ttf files themselves, so the upper limit of how high you can scale the fonts are somewhat limited.

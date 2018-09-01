@@ -1,7 +1,7 @@
 Increased Font Sizes for Divinity: Original Sin 2 Definitive Edition
 =======
 
-Simply scales the font up on the font files directly. Works as an override, so achievements should stay enabled.
+Simply scales the size of the font directly in the font files. Works as an override, so achievements should stay enabled.
 
 # Releases
 * [Github Release](https://github.com/LaughingLeader-DOS2-Mods/IncreasedFontSizes/releases)
